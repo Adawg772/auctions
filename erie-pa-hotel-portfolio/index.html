@@ -38,6 +38,8 @@ header{position:absolute;top:0;left:0;right:0;z-index:5;padding:22px 0}
 header .wrap{display:flex;justify-content:space-between;align-items:center}
 header svg{height:34px;width:auto}
 header a.tel{font-weight:600;text-decoration:none;font-size:15px}
+.hlinks{display:flex;align-items:center;gap:18px}
+.hbook{padding:10px 20px;font-size:14px}
 .hero{position:relative;min-height:92vh;display:flex;align-items:flex-end;overflow:hidden}
 .hero img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
 .hero:after{content:"";position:absolute;inset:0;background:linear-gradient(to top,rgba(0,51,51,.96) 0%,rgba(0,51,51,.82) 50%,rgba(0,51,51,.25) 85%,rgba(0,51,51,.1) 100%),linear-gradient(to bottom,rgba(0,51,51,.6),rgba(0,51,51,0) 22%)}
@@ -103,7 +105,7 @@ footer svg{height:28px;width:auto;margin-bottom:16px}
   .row{grid-template-columns:1fr}
   section{padding:56px 0}
   .sticky{display:flex}
-  header a.tel{display:none}
+  header a.tel,.hbook{display:none}
   .hero{min-height:auto}
   .hero .wrap{padding-top:110px;padding-bottom:40px}
   .clock{gap:22px;margin-top:26px}
@@ -157,7 +159,7 @@ footer svg{height:28px;width:auto;margin-bottom:16px}
     <polyline class="cls-1" points="856.54 418.02 856.54 481.98 857.44 481.98 857.44 418.02"/>
   </g>
   <path class="cls-2" d="M385.3,450.73c.05-.13.1-.25.19-.33l.78-1.35c.05-.1.1-.19.15-.28.41-.71.83-1.43,1.24-2.14l.08-.14c1.81-3.11,3.63-6.22,5.39-9.35.44-.78.89-1.12,1.81-1.12,4.6.04,9.19.03,13.79.01.38,0,.81.18,1.2-.21-2.64-4.54-5.28-9.07-7.92-13.61-5.05-.01-10.11-.03-15.16-.04-.37,0-.74-.03-1.11-.04-2.18,3.73-4.36,7.46-6.54,11.19-.49.84-.98,1.69-1.56,2.66-.54-.94-.96-1.68-1.4-2.41-2.26-3.8-4.33-7.71-6.73-11.43-9.26,0-18.53.01-27.79.02-1.01,0-2.02,0-3.03,0-.44,0-.94-.06-1.04.57,2.31,4.05,4.66,8.08,6.92,12.16.51.92,1.11,1.17,2.11,1.16,9.79-.04,19.58-.02,29.37-.02.46,0,.93-.09,1.44.15-.22.41-.38.73-.56,1.05-4.96,8.6-9.92,17.2-14.92,25.78-.46.78-.45,1.33.03,2.1,1.27,2.06,2.44,4.2,3.65,6.3,1.26,2.18,2.52,4.35,3.78,6.52.15-.08.2-.09.22-.11,3.54-6.13,7.08-12.26,10.62-18.39l5-8.71Z"/>
-</svg><a class="tel" href="tel:614-348-8377" data-ev="call_click">614-348-8377</a></div></header>
+</svg><div class="hlinks"><a class="tel" href="tel:614-348-8377" data-ev="call_click">614-348-8377</a><a class="btn btn-fill hbook" href="https://meetings.hubspot.com/adrian-walters?utm_source=landing&amp;utm_medium=referral&amp;utm_campaign=erie-pa-hotel-portfolio" target="_blank" rel="noopener" data-ev="book_call">Book a call</a></div></div></header>
 
 <section class="hero" style="padding:0">
   <img src="https://d37cbsn538t2ha.cloudfront.net/eyJidWNrZXQiOiJid3BhcGVyY2xpcC1wcm9kdWN0aW9uIiwia2V5IjoiaXRlbV9pbWFnZXMvYXNzZXRzL2NvbXBhbnlfNzQ5LzE2My84NzYvMzg1L29yaWdpbmFsL1F1YWxpdHlJbm5fRXh0ZXJpb3IuanBnIiwidiI6MTc4OTUyNTM4NCwiZWRpdHMiOnsicmVzaXplIjp7InciOjIwMDAsImgiOjEyNjB9LCJhdmlmIjp7InEiOjcwLCJzdHlsZSI6InhsIn0sImpwZWciOnsicSI6ODV9fX0=?signature=be4199e635addc47edda8476a4fa3088a314876915faac45aef558022dab3b6f" alt="8040 Perry Hwy, Erie, PA 16509" fetchpriority="high">
@@ -168,6 +170,7 @@ footer svg{height:28px;width:auto;margin-bottom:16px}
     <div class="ctas">
       <a class="btn btn-fill" href="https://bid.transitionauctiongroup.com/auctions/169750?utm_source=landing&amp;utm_medium=referral&amp;utm_campaign=erie-pa-hotel-portfolio" data-ev="register_click">Register to bid</a>
       <a class="btn btn-line" href="#due-diligence" data-ev="dd_cta_click">Get the due diligence</a>
+      <a class="btn btn-line" href="https://meetings.hubspot.com/adrian-walters?utm_source=landing&amp;utm_medium=referral&amp;utm_campaign=erie-pa-hotel-portfolio" target="_blank" rel="noopener" data-ev="book_call">Book a call</a>
     </div>
     <div class="clock" id="clock" data-opens="2026-10-05T20:00:00.000Z" data-ends="2026-10-22T20:00:00.000Z">
       <div><div class="label" id="clockLabel">Bidding opens in</div></div>
@@ -238,6 +241,7 @@ footer svg{height:28px;width:auto;margin-bottom:16px}
   <p class="fine">Full terms and conditions of sale are published on the auction page. All information is believed reliable but not guaranteed; bidders should conduct their own independent due diligence.</p>
   <div class="ctas" style="margin-top:24px">
     <a class="btn btn-fill" style="border-color:var(--ink);background:var(--ink);color:#fff" href="https://bid.transitionauctiongroup.com/auctions/169750?utm_source=landing&amp;utm_medium=referral&amp;utm_campaign=erie-pa-hotel-portfolio" data-ev="register_click">Register to bid</a>
+    <a class="btn" style="border-color:var(--ink);color:var(--ink)" href="https://meetings.hubspot.com/adrian-walters?utm_source=landing&amp;utm_medium=referral&amp;utm_campaign=erie-pa-hotel-portfolio" target="_blank" rel="noopener" data-ev="book_call">Book a call with our team</a>
   </div>
 </div></section>
 
@@ -248,6 +252,7 @@ footer svg{height:28px;width:auto;margin-bottom:16px}
     <p>Full due diligence materials, including financials, are released to qualified buyers after a confidentiality agreement is signed. Tell us who you are and our team will send the agreement.</p>
     <p style="margin-top:16px">Please do not visit or contact hotel staff, management or ownership directly. Direct all inquiries through Transition Auction Group.</p>
     <p style="margin-top:22px"><a href="tel:614-348-8377" data-ev="call_click" style="color:var(--green);font-weight:700;text-decoration:none">614-348-8377</a></p>
+    <a class="btn btn-line" style="margin-top:18px" href="https://meetings.hubspot.com/adrian-walters?utm_source=landing&amp;utm_medium=referral&amp;utm_campaign=erie-pa-hotel-portfolio" target="_blank" rel="noopener" data-ev="book_call">Book a call with our team</a>
   </div>
   <form id="ddForm" data-auction="erie-pa-hotel-portfolio">
     <div class="row">
@@ -278,7 +283,7 @@ footer svg{height:28px;width:auto;margin-bottom:16px}
 <section style="padding:0 0 64px"><div class="wrap">
   <div style="border:1px solid var(--rule);border-radius:18px;padding:28px;display:flex;flex-wrap:wrap;gap:18px;justify-content:space-between;align-items:center">
     <div><div class="label">Own a hotel?</div><p style="font-size:20px;font-weight:700;margin-top:6px">Find out what yours would bring at auction.</p></div>
-    <a class="btn btn-line" href="mailto:Adrian@transitionauctiongroup.com?subject=Own%20a%20hotel%3F%20%E2%80%94%20auction%20valuation" data-ev="seller_interest">Talk to our team</a>
+    <a class="btn btn-fill" href="https://meetings.hubspot.com/adrian-walters?utm_source=landing&amp;utm_medium=referral&amp;utm_campaign=erie-pa-hotel-portfolio-seller" target="_blank" rel="noopener" data-ev="seller_book_call">Book a call</a>
   </div>
 </div></section>
 
@@ -342,7 +347,7 @@ var slug='erie-pa-hotel-portfolio';
 function ev(name,extra){
   var p=Object.assign({auction:slug},extra||{});
   try{window.gtag&&gtag('event',name,p)}catch(e){}
-  try{if(window.fbq){var std={register_click:'Lead',dd_request:'SubmitApplication',call_click:'Contact',email_click:'Contact'}[name];std?fbq('track',std,p):fbq('trackCustom',name,p)}}catch(e){}
+  try{if(window.fbq){var std={register_click:'Lead',dd_request:'SubmitApplication',call_click:'Contact',email_click:'Contact',book_call:'Schedule',seller_book_call:'Schedule'}[name];std?fbq('track',std,p):fbq('trackCustom',name,p)}}catch(e){}
 }
 document.addEventListener('click',function(e){var t=e.target.closest('[data-ev]');if(t)ev(t.dataset.ev)});
 
