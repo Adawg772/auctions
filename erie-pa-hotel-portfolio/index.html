@@ -406,7 +406,7 @@ lb.addEventListener('click',function(){lb.style.display='none'});
 
 // Due diligence request: named, high-intent lead.
 var f=document.getElementById('ddForm');
-f.addEventListener('submit',function(e){
+if(f)f.addEventListener('submit',function(e){
   e.preventDefault();
   var d=Object.fromEntries(new FormData(f));
   var _hsq=window._hsq=window._hsq||[];
