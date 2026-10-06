@@ -238,7 +238,7 @@ footer svg{height:28px;width:auto;margin-bottom:16px}
     <div><small>Broker co-op</small><b>Available to registered buyer brokers</b></div>
     <div><small>Parcel</small><b>Erie County #40012066000701</b></div>
     <div><small>Buyer's premium</small><b>Applies. See terms of sale</b></div>
-    <div><small>Registration deadline</small><b class="num">October 21 · 4:00 PM EDT</b></div>
+    <div><small>Broker registration deadline</small><b class="num">October 21 · 4:00 PM EDT</b></div>
   </div>
   <p class="fine">Full terms and conditions of sale are published on the auction page. All information is believed reliable but not guaranteed; bidders should conduct their own independent due diligence.</p>
   <div class="ctas" style="margin-top:24px">
@@ -443,7 +443,7 @@ function hutk(){var m=document.cookie.match(/hubspotutk=([^;]+)/);return m?m[1]:
   b.disabled=true;b.textContent='Registration has closed for this auction';
   b.style.opacity='.55';b.style.cursor='not-allowed';
   var shown=new Date(dl).toLocaleString('en-US',{timeZone:'America/New_York',month:'long',day:'numeric',hour:'numeric',minute:'2-digit',timeZoneName:'short'});
-  bf.querySelector('.fine').innerHTML='Buyer registration closed '+shown+', 24 hours before bidding ends. Call 740-558-8377 if you believe you registered before the deadline.';
+  bf.querySelector('.fine').innerHTML='Broker registration closed '+shown+', 24 hours before bidding ends. Call 740-558-8377 if you believe you registered before the deadline.';
 })();
 
 bf.addEventListener('submit',function(e){
